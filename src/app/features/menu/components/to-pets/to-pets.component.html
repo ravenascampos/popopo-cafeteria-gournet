@@ -1,0 +1,14 @@
+<section id="toPet">
+  <h1>PARA SEU PET</h1>
+  <div class="cards">
+    <div *ngFor="let item of toPet" class="card">
+      <h3>{{ item.name | uppercase }}</h3>
+      <div class="content">
+        <img [src]="item.image" />
+        <p>{{ item.text }}</p>
+      </div>
+      <h4>{{ item.cost | currency: "BRL" }}</h4>
+    </div>
+  </div>
+</section>
+<div class="divider-1"></div>

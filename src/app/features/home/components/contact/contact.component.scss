@@ -1,0 +1,83 @@
+p,
+li {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7b3911;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: none;
+}
+
+header {
+  margin: 32px 0 32px;
+  text-align: center;
+}
+
+ul {
+  margin-bottom: 32px;
+
+  li {
+    margin-bottom: 8px;
+
+    mat-icon {
+      margin-right: 16px;
+    }
+    .bi-instagram {
+      margin-right: 16px;
+      margin-left: 3px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  section {
+    margin-bottom: 160px;
+  }
+
+  p,
+  li {
+    font-size: 20px;
+    line-height: 30px;
+    color: #7b3911;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  img {
+    display: block;
+    width: 353px;
+    height: 270px;
+    left: 146px;
+  }
+
+  header {
+    margin: 32px 0 45px;
+    text-align: center;
+  }
+
+  ul {
+    margin-bottom: 32px;
+
+    li {
+      margin-bottom: 45px;
+
+      mat-icon {
+        margin-right: 16px;
+      }
+      .bi-instagram {
+        margin-right: 16px;
+        margin-left: 3px;
+      }
+    }
+  }
+}

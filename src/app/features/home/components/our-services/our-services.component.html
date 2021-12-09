@@ -1,0 +1,23 @@
+<section id="our-services">
+  <div class="container grid">
+    <header>
+      <h2 class="title">NOSSOS SERVIÇOS</h2>
+      <p class="subtitle">
+        Sabemos que, além de um bom café, as pessoas gostam de ter um lugar
+        legal para passear. Gostamos muito de receber pessoas e bichinhos e
+        queremos criar um ambiente seguro e confortável para todes. Confira o
+        que temos a oferecer!
+      </p>
+    </header>
+    <div class="cards grid">
+      <div *ngFor="let service of services">
+        <div class="card">
+          <img [src]="service.image" />
+          <h3 class="title">{{ service.title }}</h3>
+          <p>{{ service.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="divider-2"></div>

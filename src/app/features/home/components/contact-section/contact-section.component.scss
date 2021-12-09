@@ -1,0 +1,30 @@
+section h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 32px;
+
+  text-align: center;
+
+  color: #7b3911;
+}
+
+@media (min-width: 992px) {
+  section h2 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 160px;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    app-contact {
+      margin-left: 0;
+    }
+  }
+}
